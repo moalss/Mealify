@@ -1,0 +1,128 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    
+       
+    
+    footer .container {
+        max-width: 960px;
+        display: flex;
+        gap: 1.125rem;
+        flex-wrap: wrap; 
+    }
+    /*nav*/
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+    /*^----------------- Header-------------- */
+   
+  .container {
+    display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+        max-width: 720px;
+    } 
+
+    .header .container .cont{
+       display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header .container .cont .btn .book{
+        border-radius: 19px ; 
+          
+    }
+    .header .container .cont h2{
+        text-align: center;
+    }
+    .header .container .cont p {
+        width: 100%;
+    }
+   
+
+ /*^----------------- Chef-------------- */
+    .chef .chef-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.6875rem;
+    }
+    .chef .chef-items .chef-inner{
+        width: calc(calc(100% - 1.6875rem) / 2);
+    }
+     
+  /*^----------------- Footer-------------- */
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    .container {
+        width: 88%;
+    }
+
+    .chef .chef-items .chef-inner{
+       width: 100%; 
+    }
+    .gallery .container .gallery-items {
+        display: flex;
+        gap: 0.625rem;
+        flex-wrap: wrap;
+    }
+
+
+    /*^ ------------ contact----------*/
+    .contact .container .infos .address, .contact .container .infos .call, .contact .container .infos .mail, .contact .container .infos .opening {
+        width: 100%;
+    }
+
+    
+
+.contact .container .form1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+}
+    .contact .container .form1 input {
+        width: 100%;
+    }
+
+    footer .container .subscribe form input {
+        width: 77%;
+    }
+
+    footer .container .infos {
+        
+        width: 100%;
+        
+    }
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+    footer .container .subscribe form button {
+        width: 100%;
+    }
+
+    footer .container .subscribe form input {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
